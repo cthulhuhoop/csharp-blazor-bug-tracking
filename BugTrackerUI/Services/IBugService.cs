@@ -7,8 +7,10 @@ namespace BugTrackerUI
 {
     public interface IBugService
     {
+        
+        void AddBug(Bug newBug);
+
         List<Bug> GetBugs();
 
-        void AddBug(Bug newBug);
     }
 }
